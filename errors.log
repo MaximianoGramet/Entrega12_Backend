@@ -1,0 +1,231 @@
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:04:43"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:04:43"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:04:43"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:05:44"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:05:44"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:05:44"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:07:15"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:07:15"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:07:15"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:08:03"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:04"}
+{"level":"error","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:04"}
+{"level":"warning","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:04"}
+{"level":"fatal","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:31"}
+{"level":"error","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:31"}
+{"level":"warning","message":"GET en /favicon.ico - at 13/3/2024 - 13:08:31"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:27:01"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:30:56"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:36:49"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:52:08"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:52:36"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:52:36"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:52:36"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+fatal: GET en /loggertest - at 13/3/2024 - 13:54:40
+error: GET en /loggertest - at 13/3/2024 - 13:54:40
+warning: GET en /loggertest - at 13/3/2024 - 13:54:40
+warning: Warn logger test
+error: Error logger test
+fatal: Fatal logger test
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:56:19"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:56:19"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:56:19"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:57:29"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:57:29"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:57:29"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:58:51"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:58:51"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:58:51"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en /loggertest - at 13/3/2024 - 13:59:10"}
+{"level":"error","message":"GET en /loggertest - at 13/3/2024 - 13:59:10"}
+{"level":"warning","message":"GET en /loggertest - at 13/3/2024 - 13:59:10"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"warning","message":"Warn logger test"}
+{"level":"error","message":"Error logger test"}
+{"level":"fatal","message":"Fatal logger test"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:28:57"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:28:57"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:28:57"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:28"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:28"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:28"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:29"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:33:30"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:33:30"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:33:30"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:34:13"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:34:13"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:34:13"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:36:11"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:36:11"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:36:11"}
+{"level":"fatal","message":"GET en / - at 22/3/2024 - 00:41:38"}
+{"level":"error","message":"GET en / - at 22/3/2024 - 00:41:38"}
+{"level":"warning","message":"GET en / - at 22/3/2024 - 00:41:38"}
+{"level":"fatal","message":"GET en /js/login.js - at 22/3/2024 - 00:41:38"}
+{"level":"error","message":"GET en /js/login.js - at 22/3/2024 - 00:41:38"}
+{"level":"warning","message":"GET en /js/login.js - at 22/3/2024 - 00:41:38"}
+{"level":"fatal","message":"GET en /favicon.ico - at 22/3/2024 - 00:41:38"}
+{"level":"error","message":"GET en /favicon.ico - at 22/3/2024 - 00:41:38"}
+{"level":"warning","message":"GET en /favicon.ico - at 22/3/2024 - 00:41:38"}
+{"level":"fatal","message":"GET en /users/register - at 22/3/2024 - 00:41:58"}
+{"level":"error","message":"GET en /users/register - at 22/3/2024 - 00:41:58"}
+{"level":"warning","message":"GET en /users/register - at 22/3/2024 - 00:41:58"}
+{"level":"fatal","message":"GET en /js/register.js - at 22/3/2024 - 00:41:58"}
+{"level":"error","message":"GET en /js/register.js - at 22/3/2024 - 00:41:58"}
+{"level":"warning","message":"GET en /js/register.js - at 22/3/2024 - 00:41:58"}
+{"level":"fatal","message":"POST en /api/sessions/register - at 22/3/2024 - 00:42:32"}
+{"level":"error","message":"POST en /api/sessions/register - at 22/3/2024 - 00:42:32"}
+{"level":"warning","message":"POST en /api/sessions/register - at 22/3/2024 - 00:42:32"}
+{"level":"fatal","message":"GET en /users/login - at 22/3/2024 - 00:42:33"}
+{"level":"error","message":"GET en /users/login - at 22/3/2024 - 00:42:33"}
+{"level":"warning","message":"GET en /users/login - at 22/3/2024 - 00:42:33"}
+{"level":"fatal","message":"GET en /js/login.js - at 22/3/2024 - 00:42:33"}
+{"level":"error","message":"GET en /js/login.js - at 22/3/2024 - 00:42:33"}
+{"level":"warning","message":"GET en /js/login.js - at 22/3/2024 - 00:42:33"}
+{"level":"fatal","message":"GET en /users/password-recovery - at 22/3/2024 - 00:42:40"}
+{"level":"error","message":"GET en /users/password-recovery - at 22/3/2024 - 00:42:40"}
+{"level":"warning","message":"GET en /users/password-recovery - at 22/3/2024 - 00:42:40"}
+{"level":"fatal","message":"GET en /users/password-recovery - at 22/3/2024 - 00:43:50"}
+{"level":"error","message":"GET en /users/password-recovery - at 22/3/2024 - 00:43:50"}
+{"level":"warning","message":"GET en /users/password-recovery - at 22/3/2024 - 00:43:50"}
+{"level":"fatal","message":"GET en /users/password-recovery - at 22/3/2024 - 00:44:17"}
+{"level":"error","message":"GET en /users/password-recovery - at 22/3/2024 - 00:44:17"}
+{"level":"warning","message":"GET en /users/password-recovery - at 22/3/2024 - 00:44:17"}
+{"level":"fatal","message":"GET en /users/login - at 22/3/2024 - 00:44:22"}
+{"level":"error","message":"GET en /users/login - at 22/3/2024 - 00:44:22"}
+{"level":"warning","message":"GET en /users/login - at 22/3/2024 - 00:44:22"}
+{"level":"fatal","message":"GET en /js/login.js - at 22/3/2024 - 00:44:23"}
+{"level":"error","message":"GET en /js/login.js - at 22/3/2024 - 00:44:23"}
+{"level":"warning","message":"GET en /js/login.js - at 22/3/2024 - 00:44:23"}
+{"level":"fatal","message":"GET en /favicon.ico - at 22/3/2024 - 00:44:23"}
+{"level":"error","message":"GET en /favicon.ico - at 22/3/2024 - 00:44:23"}
+{"level":"warning","message":"GET en /favicon.ico - at 22/3/2024 - 00:44:23"}
+{"level":"fatal","message":"GET en /users/recover-password - at 22/3/2024 - 00:44:27"}
+{"level":"error","message":"GET en /users/recover-password - at 22/3/2024 - 00:44:27"}
+{"level":"warning","message":"GET en /users/recover-password - at 22/3/2024 - 00:44:27"}
+{"level":"fatal","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:44:31"}
+{"level":"error","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:44:31"}
+{"level":"warning","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:44:31"}
+{"level":"fatal","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:45:34"}
+{"level":"error","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:45:34"}
+{"level":"warning","message":"POST en /api/sessions/recover-password - at 22/3/2024 - 00:45:34"}
+{"level":"fatal","message":"GET en /users/recover-password - at 22/3/2024 - 00:45:47"}
+{"level":"error","message":"GET en /users/recover-password - at 22/3/2024 - 00:45:47"}
+{"level":"warning","message":"GET en /users/recover-password - at 22/3/2024 - 00:45:47"}
+{"level":"fatal","message":"GET en /favicon.ico - at 22/3/2024 - 00:45:47"}
+{"level":"error","message":"GET en /favicon.ico - at 22/3/2024 - 00:45:47"}
+{"level":"warning","message":"GET en /favicon.ico - at 22/3/2024 - 00:45:47"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:45:50"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:45:50"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:45:50"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:46:28"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:46:28"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:46:28"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:54:30"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:54:30"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:54:30"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:55:35"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:55:35"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 00:55:35"}
+{"level":"fatal","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:55:54"}
+{"level":"error","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:55:54"}
+{"level":"warning","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:55:54"}
+{"level":"fatal","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:18"}
+{"level":"error","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:18"}
+{"level":"warning","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:18"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:38"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:38"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:38"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:46"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:46"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 00:57:46"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:01:43"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:01:43"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:01:43"}
+{"level":"fatal","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 01:01:52"}
+{"level":"error","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 01:01:52"}
+{"level":"warning","message":"POST en /api/sessions/forgot-password - at 22/3/2024 - 01:01:52"}
+{"level":"fatal","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:04"}
+{"level":"error","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:04"}
+{"level":"warning","message":"GET en /users/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:04"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:16"}
+{"level":"error","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:16"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/84a7f9b9c110c830114662aaaa9779cfb85cf62f - at 22/3/2024 - 01:02:16"}
+{"level":"fatal","message":"GET en /users/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:26"}
+{"level":"error","message":"GET en /users/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:26"}
+{"level":"warning","message":"GET en /users/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:26"}
+{"level":"fatal","message":"POST en /api/sessions/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:29"}
+{"level":"error","message":"POST en /api/sessions/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:29"}
+{"level":"warning","message":"POST en /api/sessions/reset-password/b52edde6a643b8d2a6a8558ac3176cb16d635f07 - at 22/3/2024 - 01:02:29"}

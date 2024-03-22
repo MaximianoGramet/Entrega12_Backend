@@ -1,0 +1,25 @@
+<div>
+        
+        <p>Nombre completo: {{user.full_name}}</p>
+        <p>Email: {{user.email}}</p>
+        <p>Edad: {{user.age}}</p>
+        <p>Rol: {{user.rol}}</p>
+        <button id="logout" onclick="logout()">Logout</button>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/main.js"></script>
+</div>
+
+<script>
+  function logout(){
+    console.log("hola")
+    fetch('/api/sessions/logout', {
+      method:"GET",
+      headers:{
+        'Content-Type': 'application/json'
+      }
+    }).then(result => {
+      console.log(result.status)
+      if(result.status === 200) window.location.replace('/users/login')
+    })
+  }
+</script>

@@ -1,0 +1,18 @@
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col"> Product </th>
+        <th scope="col"> Quantity </th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each products.products}}
+        <tr>
+          <td> {{this.product.title}}</td>
+          <td> {{this.quantity}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

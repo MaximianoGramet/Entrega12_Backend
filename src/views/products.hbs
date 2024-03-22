@@ -1,0 +1,66 @@
+<div>
+    <h1 class="m-3">{{welcomeMessage}}</h1>
+    <div>
+        <p>Mail:{{user.email}}</p>
+        <p>Edad:{{user.age}}</p>
+        <p>Rol:{{user.rol}}</p>
+    </div>
+  {{#ifEquals user.rol 'admin'}}
+    <form>
+        <input type="text" name="title" id="title" placeholder="Product title" requiered>
+        <input type="text" name="description" id="description" placeholder="Product description" requiered>
+        <input type="number" name="price" id="price" placeholder="Product price" requiered>
+        <input type="text" name="thumbnails" id="thumbnails" placeholder="Product thumbnail" requiered>
+        <input type="text" name="code" id="code" placeholder="Product code" requiered>
+        <input type="number" name="stock" id="stock" placeholder="Product stock" requiered>
+        <input type="submit" value="Send">
+    </form>
+  {{/ifEquals}}
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col"> Title </th>
+            <th scope="col"> Description </th>
+            <th scope="col"> Price </th>
+            <th scope="col"> Thumbnail </th>
+            <th scope="col"> Code </th>
+            <th scope="col"> Stock </th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each products.docs}}
+            <tr>
+            <td> {{this.title}}</td>
+            <td> {{this.description}}</td>
+            <td> {{this.price}} </td>
+            <td> {{this.thumbnails}}</td>
+            <td> {{this.code}}</td>
+            <td> {{this.stock}} </td>
+            </tr>
+        {{/each}}
+
+        </tbody>
+    </table>
+    <h2>Products list</h2>
+    <div id="products"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js"></script>
+
+    <button id="logout" onclick="logout()">Logout</button>
+</div>
+
+<script>
+  function logout(){
+    console.log("hola")
+    fetch('/api/sessions/logout', {
+      method:"GET",
+      headers:{
+        'Content-Type': 'application/json'
+      }
+    }).then(result => {
+      console.log(result.status)
+      if(result.status === 200) window.location.replace('/users/login')
+    })
+  }
+</script>

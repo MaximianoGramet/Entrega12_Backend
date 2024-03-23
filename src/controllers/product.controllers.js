@@ -69,7 +69,6 @@ export const createProduct = async (req, res) => {
       product.description === undefined ||
       product.price === undefined ||
       product.thumbnail === undefined ||
-      product.category === undefined ||
       product.code === undefined ||
       product.status === undefined ||
       product.stock === undefined

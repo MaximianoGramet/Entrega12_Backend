@@ -77,7 +77,6 @@ router.post('/reset-password/:token', async (req, res) => {
       if (!user || Date.now() > user.resetTokenExpires) {
         return res.render('reset-password-expired')
       }
-
       user.password = createHash(password)
       user.resetToken = undefined
       user.resetTokenExpires = undefined

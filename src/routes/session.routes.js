@@ -64,8 +64,8 @@ router.get("/fail-login", (req, res) => {
 
 
 router.post('/reset-password/:token', async (req, res) => {
-  const token = req.params.token;
-  const { password, confirmPassword } = req.body;
+  const token = req.params.token
+  const { password, confirmPassword } = req.body
 
   if (password !== confirmPassword) {
       return res.status(400).send('Las contraseñas no coinciden.')
@@ -75,20 +75,20 @@ router.post('/reset-password/:token', async (req, res) => {
       const user = await userModel.findOne({ resetToken: token })
 
       if (!user || Date.now() > user.resetTokenExpires) {
-          return res.status(400).send('Expired or wrong link.')
+        return res.render('reset-password-expired')
       }
 
-      user.password = createHash(password);
-      user.resetToken = undefined;
-      user.resetTokenExpires = undefined;
-      await user.save();
+      user.password = createHash(password)
+      user.resetToken = undefined
+      user.resetTokenExpires = undefined
+      await user.save()
 
-      res.send('Password changed succesfuly.');
+      res.send('Password changed succesfuly.')
   } catch (error) {
-      console.error('Error at changing password:', error);
-      res.status(500).send('internal server error.');
+      console.error('Error at changing password:', error)
+      res.status(500).send('internal server error.')
   }
-});
+})
 
 
 router.post('/forgot-password', async (req, res) => {
@@ -102,7 +102,7 @@ router.post('/forgot-password', async (req, res) => {
     }
 
     const resetToken = await generateUniqueToken();
-    const resetTokenExpires = Date.now() + 30 * 60 * 1000;
+    const resetTokenExpires = Date.now() + 60 * 60 * 1000;
     
     user.resetToken = resetToken;
     user.resetTokenExpires = resetTokenExpires;

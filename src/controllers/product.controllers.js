@@ -45,6 +45,14 @@ export const getProductById = async (req, res) => {
 export const deleteProduct = async (req, res) => {
   const { id } = req.params
   try {
+    const productToDelete = await productService.getProductById(id);
+    if (!productToDelete) {
+      return res.status(404).json({ message: 'Product not found' });
+    }
+    const currentUser = req.session.user;
+    if (currentUser.rol !== 'admin' && productToDelete.owner !== currentUser.email) {
+      return res.status(403).json({ message: 'Access denied. You do not have permission to delete this product.' });
+    }
     await productService.deleteProduct(id)
     return res.status(200).json({ message: 'Product deleted successfully' })
   } catch (error) {
@@ -53,7 +61,8 @@ export const deleteProduct = async (req, res) => {
 }
 
 export const createProduct = async (req, res) => {
-  const product = req.body
+  const product = req.body;
+  const owner = req.session.user?.email  || "admin"
   try {
     if (
       product.title === undefined ||
@@ -71,25 +80,35 @@ export const createProduct = async (req, res) => {
         message:
           "Product cannot be created. Please see your console for details.",
         code: EErrors.MISSING_PROPERTY_ERROR,
-    })}
-    const newProduct = await productService.createProduct(product)
+      });
+    }
+    const newProduct = await productService.createProduct({ ...product, owner })
     res.json({
-      product,
+      product: newProduct,
       message: "Product created"
-    })
+    });
   } catch (error) {
     console.log("[ERROR]: " + error.cause);
-      res.status(400).json({
-        error: error.name,
-        message: error.message,
-        code: error.code,
-    })
+    res.status(400).json({
+      error: error.name,
+      message: error.message,
+      code: error.code,
+    });
   }
-}
+};
 
 export const updateProduct = async (req, res) => {
   try {
     const { pid } = req.params
+    const productToUpdate = await productService.getProductById(pid);
+    if (!productToUpdate) {
+      return res.status(404).json({ message: "Product not found" });
+    }
+    const currentUser = req.session.user;
+
+    if (currentUser.rol !== "admin" && productToUpdate.owner !== currentUser.email) {
+      return res.status(403).json({ message: "Access denied. You do not have permission to update this product." });
+    }
     const product = await productService.updateProduct(pid, req.body)
 
     res.json({

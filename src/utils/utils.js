@@ -18,7 +18,7 @@ export const userApiBlock = () => {
             if(!rol){
                 res.status(401).send('HTTP 401 Unauthorized: Log in needed')
             }
-            if (rol === "admin") {
+            if (rol === "admin"|| rol === "premium") {
                 next()
             } else {
                 return res.status(403).json({ message: "Access denied. You do not have permission to access this API function." })

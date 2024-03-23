@@ -11,7 +11,8 @@ form.addEventListener("submit",(element)=>{
         price: formData.get("price"),
         thumbnails: formData.get("thumbnails"),
         code: formData.get("code"),
-        stock: formData.get("stock")
+        stock: formData.get("stock"),
+        owner:formData.get("owner")
     }
 
     socket.emit("product_send", product);
@@ -25,7 +26,7 @@ socket.on("products", (data) => {
     data.forEach(product => {
         
         products.innerHTML += `<div>
-        Id: ${product.id} - Title: ${product.title} - Description: ${product.description} - Price: ${product.price} - Thumbnail: ${product.thumbnail} - Code: ${product.code} - Stock: ${product.stock} - <button class="delete"> Delete </button> <br>
+        Id: ${product.id} - Title: ${product.title} - Description: ${product.description} - Price: ${product.price} - Thumbnail: ${product.thumbnail} - Code: ${product.code} - Stock: ${product.stock}- Owner: ${product.owner} - <button class="delete"> Delete </button> <br>
         </div>`;
     })
 })

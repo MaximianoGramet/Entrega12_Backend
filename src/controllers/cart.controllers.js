@@ -140,7 +140,15 @@ export const setProductQuantityController = async (req, res) => {
 
 export const addProductCartController = async (req, res) => {
     const { cid, pid } = req.params
+    const currentUser = req.session.user;
     try {
+        const product = await productService.getProductById(pid);
+        if (!product) {
+            return res.status(404).json({ message: 'Product not found' });
+        }
+        if (product.owner === currentUser.email) {
+            return res.status(403).json({ message: 'You cannot add your own product to your cart' });
+        }
         const result = await CartService.addProductCart(cid, pid)
         res.json({
             result,

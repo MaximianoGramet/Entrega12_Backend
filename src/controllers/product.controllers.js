@@ -66,9 +66,9 @@ export const createProduct = async (req, res) => {
   try {
     if (
       product.title === undefined ||
-      product.descripcion === undefined ||
+      product.description === undefined ||
       product.price === undefined ||
-      product.thumbnails === undefined ||
+      product.thumbnail === undefined ||
       product.category === undefined ||
       product.code === undefined ||
       product.status === undefined ||

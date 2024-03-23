@@ -1,5 +1,6 @@
 import { Router } from "express";
 import UserDto from "../Services/dtos/user.dto.js"; 
+import userModel from "../models/user.model.js";
 
 const router = Router()
 

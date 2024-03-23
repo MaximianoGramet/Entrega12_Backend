@@ -9,7 +9,8 @@ router.get("/", (req, res) => {res.render("login.hbs");});
 router.get("/realtimeproducts", (req, res) => {
     if (!req.session.user) {
         return res.redirect("/users/login");
-    }res.render("products.hbs", {user:new UserDto(req.session.user)});})
+    }res.render("products.hbs", {user:new UserDto(req.session.user)});
+})
 
 router.get("/chat",chatBlock,(req,res)=>{
 
